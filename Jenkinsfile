@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from the repository
-                git branch: 'master', url: 'https://github.com/monilkarajapaksha/NodeBackend'
+                git branch: 'main', url: 'https://github.com/spk0626/4329-kulasooriya.git'
             }
         }
         stage('Dockerize the Application') {
